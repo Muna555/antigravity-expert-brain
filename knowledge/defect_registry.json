@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Antigravity Permanent Defect Registry",
+  "description": "Catalog of permanently solved problems enforced by Single-Failure Hard Gate Law",
+  "defects": [
+    {
+      "id": "DEF-001",
+      "title": "Subtext clipping at Y=970",
+      "discovered": "2026-11-17",
+      "invariant_test": "audit/test_web_app.py::test_04_pranam_subtext_never_clipped",
+      "status": "PERMANENTLY_IMMUNIZED"
+    },
+    {
+      "id": "DEF-002",
+      "title": "Long devotee names rendered microscopic (<20px)",
+      "discovered": "2026-11-18",
+      "invariant_test": "audit/test_web_app.py::test_05_devotee_name_enlarged_and_expanded_box",
+      "status": "PERMANENTLY_IMMUNIZED"
+    },
+    {
+      "id": "DEF-003",
+      "title": "Fuzzy red neon blur on cream cards",
+      "discovered": "2026-11-18",
+      "invariant_test": "audit/test_web_app.py::test_06_crystal_clear_high_contrast_typography",
+      "status": "PERMANENTLY_IMMUNIZED"
+    }
+  ]
+}
